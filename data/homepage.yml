@@ -1,14 +1,14 @@
 # banner
 banner:
-  title : "Salut ! <br> Je suis Mélissa <br> Ingénieure Cognigitique"
+  title : "Salut, je suis Mélissa !"
 
 # about
 about:
   enable : true
-  content : "Bienvenue sur mon premier site ! "
+  content : "Je m’appel Mélissa, je suis ingénieure cognitique mais avec la casquette de developpeur fullstack !"
   button:
     enable : true
-    label : "Savoir plus"
+    label : "A propos"
     URL : "about"
 
 # skill
@@ -34,7 +34,7 @@ skill:
 
 # # experience
 experience:
-  enable : false
+  enable : true
   title : "Experience"
   item: 
     - logo : "images/experience/icon-1.png"
@@ -95,7 +95,7 @@ service:
 
 # portfolio
 portfolio:
-  enable : true
+  enable : false
   title : "Portfolio"
   item_show : 5
   # portfolio item comes from 'data/portfolio.yml' item.
@@ -156,6 +156,5 @@ clients_logo_slider:
 
 # blog
 blog:
-  enable : true
+  enable : false
   title : "Blogs"
-  # blog post comes from "content/blog" folder

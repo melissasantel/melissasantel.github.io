@@ -2,19 +2,20 @@
 title: "About"
 date: 2021-12-30T17:30:47+01:00
 description: "Une courte description de moi"
-# author_image : "images/about/author.jpg"
+author_image : "images/about/author.jpg"
 # author_signature : "images/about/signature.png"
-draft: true
+draft: false
 ---
 
-Bonjour, 
+Après avoir réalisé mes 3 années de classes de préparation au grande école à Baimbridge (Guadeloupe 🇬🇵), j’ai commencé ma formation d’ingénieur en cognitique à l’ENSC de Bordeaux. Suite  à une année de césure, une double formation en robotique réalisé à l’ENSEIRB Matmeca en apprentissage, je me suis spécialisé en tant que développeur full stack. 
 
-Je m'appel Mélissa, originaire des antilles Française, je vis aujourd'hui à Bordeaux.
-Agée de 26 ans maintenant, je suis diplomée d'un diplome d'ingénieur cognitique. 
+Ainsi, j’ai de bonne connaissance en tant que développeur mais aussi en conception de IHM autour des méthodes CCU et UX. 
 
-Mon trait de caractère principal est ma curiosité. J'aime ainsi satisfaire ma curisoité en me lancant dans projets ou la lecture de livre de toute sorte  que j'avoue je ne termine pas tout le temps ! 
-Pour être franche ce site n'est qu'un projet pour découvrir la création de site à travers Hugo.
+Je me décrirai comme une personne curieuse qui aime toucher un peu à tout du bout des doigts. ( Je vous invite à cliquer sur la section découverte). 
 
-Enfin peut-être que cela deviendra par la suite un moyen de m'exprimer ! Let's found out ! 
+C’est ainsi que me retrouve avec pas moins de 300 000 000 onglets d’ouvert ou qu'il y a encore une centaine de livre qui attendes d'être terminé. 
+Pour être franche ce portfolio est un projet pour découvrir la création de site à travers Hugo.
+
+Enfin peut-être que cela deviendra plus par la suite !
 
 Si vous passez par là, vous avez mes salutations ! 

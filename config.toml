@@ -1,9 +1,9 @@
 # default configuration
-baseURL = "http://demo.gethugothemes.com/kross/"
+baseURL = "http://melissasantel_portfolio_.com/"
 languageCode = "fr"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Mélissa Santel"
+title = "Mélissa Portfolio"
 
 # css plugins
 [[params.plugins.css]]
@@ -34,14 +34,19 @@ name = "A propos"
 weight = 1
 
 [[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 2
-
-[[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
+URL = "experiences"
+name = "Experiences"
 weight = 3
+
+# [[menu.main]]
+# URL = "blog"
+# name = "Blog"
+# weight = 2
+# 
+# [[menu.main]]
+# URL = "portfolio"
+# name = "Portfolio"
+# weight = 3
 
 [[menu.main]]
 URL = "contact"
@@ -54,7 +59,7 @@ weight = 4
 home = "Accueil"
 logo = ""
 # theme color
-theme_color = "#41228e"
+theme_color = "#8eb8df"
 # contact info
 # phone = "+880 2544 658 256"
 # email = "steve.fruits@email.com"
