@@ -1,6 +1,6 @@
 # banner
 banner:
-  title : "Salut, je suis Mélissa !"
+  title : "Salut,\n je suis Mélissa !"
 
 # about
 about:
@@ -37,20 +37,20 @@ experience:
   enable : true
   title : "Experience"
   item: 
-    - logo : "images/experience/icon-1.png"
-      title : "Junior UX Designer"
-      company : "WEBEX"
-      duration : "Jan 2007 - Feb 2009"
+    - logo : "images/experiences/alten_.png"
+      title : "Ingénieure d'étude"
+      company : "ALTEN"
+      duration : "Oct 2022 - Maintenant"
       
-    - logo : "images/experience/icon-2.png"
-      title : "UX & UI Designer"
-      company : "AUGMEDIX"
-      duration : "Mar 2009 - Aug 2014"
+    - logo : "images/experiences/aio.png"
+      title : "Ingénieure cognitique"
+      company : "AIO"
+      duration : "Oct 2022 - Oct 2022"
       
-    - logo : "images/experience/icon-1.png"
-      title : "Senior UI Designer"
-      company : "THEMEFISHER"
-      duration : "Sep 2014 - Present"
+    - logo : "images/experiences/aio.png"
+      title : "Alternante"
+      company : "AIO"
+      duration : "Sept 2019 - Sept 2020"
 
 # # education
 education:
