@@ -33,11 +33,6 @@ URL = "about"
 name = "A propos"
 weight = 1
 
-[[menu.main]]
-URL = "experiences"
-name = "Experiences"
-weight = 3
-
 # [[menu.main]]
 # URL = "blog"
 # name = "Blog"
@@ -63,7 +58,7 @@ theme_color = "#8eb8df"
 # contact info
 # phone = "+880 2544 658 256"
 # email = "steve.fruits@email.com"
-# address = "125/A, CA Commercial Area, California, USA"
+address = "Bordeaux"
 # meta description
 author = "Mélissa Santel"
 description = "This is meta description"
@@ -89,7 +84,7 @@ form_action = "https://formspree.io/f/mbjwlyjl"
 
 # google map
 [params.map]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
 map_latitude = "44.837789"
 map_longitude = "-0.57918"
@@ -106,17 +101,21 @@ icon = "ti-linkedin"
 URL = "https://www.linkedin.com/in/melissa-santel/"
 
 [[params.social]]
-icon = "ti-instagram"
-URL = "https://www.instagram.com/meliissasantel_/"
+icon = "ti-github"
+URL = "https://github.com/melissasantel"
 
 [[params.social]]
-icon = "ti-dribbble"
-URL = "https://dribbble.com/MelissaSantel"
+icon = "ti-pinterest"
+URL = "https://pin.it/4tV0Ro9"
+
+# [[params.social]]
+# icon = "ti-instagram"
+# URL = "https://www.instagram.com/meliissasantel_/"
+
+# [[params.social]]
+# icon = "ti-dribbble"
+# URL = "https://dribbble.com/MelissaSantel"
 
 # [[params.social]]
 # icon = "ti-behance"
 # URL = "https://www.behance.net/mlissasantel"
-
-[[params.social]]
-icon = "ti-github"
-URL = "https://github.com/melissasantel"
