@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "http://melissasantel.github.io/"
+baseURL = "https://melissasantel.github.io/"
 languageCode = "fr"
 summaryLength = "10"
 theme = "kross-hugo"
