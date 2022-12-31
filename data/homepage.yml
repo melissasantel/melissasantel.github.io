@@ -1,0 +1,198 @@
+# banner
+banner:
+  title : ""
+
+# about
+about:
+  enable : true
+  content : "Je suis une jeune ingénieure cogniticienne en poste actuellement chez Alten et basée à Bordeaux.
+            Ceci est mon portfolio, vous y trouverez quelques lignes à mon sujets, mes expériences et bien d'autre choses à venir. 
+            Bonne visite !"
+  button:
+    enable : true
+    label : "A propos"
+    URL : "about"
+
+# experience
+experience:
+  enable : true
+  title : "Experiences"
+  item: 
+    - logo : "images/resume/alten.png"
+      title : "Ingénieure d'étude"
+      company : "ALTEN"
+      duration : "Oct 2022 - Maintenant"
+
+    - logo : "images/resume/aio.png"
+      title : "Ingénieure cognitique"
+      company : "AIO"
+      duration : "Oct 2020 - Oct 2022"
+
+    - logo : "images/resume/aio.png"
+      title : "Alternante - Developpeur fullstack"
+      company : "AIO"
+      duration : "Sept 2019 - Sept 2020"
+
+    - logo : "images/resume/aio.png"
+      title : "Stage - Developpeur & Ergonome"
+      company : "Ullo World"
+      duration : "Avr 2019 - Juil 2019"
+
+    - logo : "images/resume/aio.png"
+      title : "Stage - Developpeur web"
+      company : "Newmips"
+      duration : "Oct 2018 - Mars 2019"
+
+    - logo : "images/resume/aio.png"
+      title : "Stage - Developpeur web"
+      company : "Ipeos"
+      duration : "Juin 2018 - Aout 2018"
+
+
+# education
+education:
+  enable : true
+  title : "Formations et diplômes"
+  item:
+    - title : "Formation Robotique & Apprentissage"
+      year : "2020"
+      academy : "ENSEIRB MATMECA"
+      
+    - title : "Ingénieure Cognitique"
+      year : "2020"
+      academy : "ENSC"
+      
+    - title : "Classe préparatoire BPCST"
+      year : "2016"
+      academy : "Lycée Baimbridge"
+      
+    - title : "Baccalauréat Scientifique"
+      year : "2013"
+      academy : "Lycée Charles Coeffin"
+
+# skill
+skill:
+  enable : true
+  title : "Compétences"
+  item:
+    - title : "Front-end"
+      details : "Vue.js - HTML, CSS, Javascript"
+      progress : "60%"
+      color : "#fdb157"
+      
+    - title : "Design Interface"
+      details : "Axure, Figma"
+      progress : "30%"
+      color : "#ffbcaa"
+
+    - title : "UX Design"
+      details : "Méthodes et approche CCU"
+      progress : "30%"
+      color : "#aaffd8"
+
+    - title : "Back-end"
+      details: "Flask - SqlAlchemy, PostgreSQL, Redis - Celery"
+      progress : "70%"
+      color : "#9473e6"
+      
+    - title : "Ops"
+      details : "Docker, Cron, Daemon"
+      progress : "40%"
+      color : "#bdecf6"
+      
+    - title : "IoT"
+      details : "LoraWan, EnOcean, UWB -  C++"
+      progress : "40%"
+      color : "#ffe3aa"
+
+# service
+service:
+  enable : true
+  title : "Projets"
+  item:
+    - title : "Le Kanban pour le suivi de colis"
+      icon : "ti-package"
+      content : "Direction d’un projet de suivi de colis à travers la méthode de Kanban et sa digitalisation.
+                 Mise en place de code-barres à scanner via une PWA en Vue.js couplé a un site web en Vue.js - Flask un permettant de tracker le traitement des colis
+                 dans la chaine de réception/envoie par le calcul de leur LeadTime"
+      highlighted : true
+
+    - title : "Suivi de production avec IIoT"
+      icon : "ti-dashboard"
+      content : "Mise en place d'IoT Industriel de \"batonnage\" afin de suivre le nombre de produit en fin de lignes et d' \"Andon\" pour permettre 
+                 l'arrêt de la ligne au premier defaut à travers les protocoles de communication LoRa et EnOcean. Adaptation d'une vue dashboard en Vue.js - Flask permettant 
+                 de visualiser l'état de la ligne en temps réels (Andon, OEE)"
+      highlighted : true
+
+    - title : "Etude de TMS avec IIoT"
+      icon : "ti-user"
+      content : "Analyse des méthodes de calcule des scores ergoniques basée sur le calcul de MGD/MGI des corps humains dans un projet de R&D étudiant les mauvaises postures 
+                 adoptées à un poste de travail, pouvant entrainer des TMS. Développement en parallèle d'une variante avec une application mobile de 
+                 suivit de postures et d'étude d’une zone de mouvement de sureté appelé strike zone"
+      highlighted : true
+
+# portfolio
+portfolio:
+  enable : false
+  title : "Portfolio"
+  item_show : 5
+  # portfolio item comes from 'data/portfolio.yml' item.
+
+# testimonial
+testimonial:
+  enable : false
+  title : "Testimonials"
+  item:
+    - name : "Jesica Gomez"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      
+    - name : "Shirley Scot"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      
+    - name : "Jessica Julie"
+      image : "images/testimonial/client-1.png"
+      designation : "CEO, Funder"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+# client logo slider
+clients_logo_slider:
+  enable : false
+  item:
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "#"
+
+# blog
+blog:
+  enable : false
+  title : "Blogs"
