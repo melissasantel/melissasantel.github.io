@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kross</title>
-    <link>http://demo.gethugothemes.com/kross/</link>
-    <description>Recent content on Kross</description>
+    <title>Mélissa Portfolio</title>
+    <link>https://melissasantel.github.io/</link>
+    <description>Recent content on Mélissa Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://demo.gethugothemes.com/kross/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    <lastBuildDate>Thu, 30 Dec 2021 17:31:19 +0100</lastBuildDate><atom:link href="https://melissasantel.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
