@@ -28,10 +28,10 @@ link = "plugins/google-map/map.js"
 
 
 # menu
-[[menu.main]]
-URL = "about"
-name = "A propos"
-weight = 1
+#[[menu.main]]
+# URL = "about"
+# name = "A propos"
+# weight = 1
 
 # [[menu.main]]
 # URL = "blog"
@@ -43,10 +43,10 @@ weight = 1
 # name = "Portfolio"
 # weight = 3
 
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 2
+# [[menu.main]]
+# URL = "contact"
+# name = "Contact"
+# weight = 2
 
 
 # default parameters
@@ -74,12 +74,12 @@ copyright = "Copyright &copy; 2021 a Theme by [Gethugothemes](https://gethugothe
 
 # preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif" # use png, jpg, svg or gif format
 
 # contact
 [params.contact]
-enable = true
+enable = false
 form_action = "https://formspree.io/f/mbjwlyjl"
 
 # google map
@@ -92,30 +92,24 @@ map_marker = "images/marker.png"
 
 # cookies
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
 
 # social site
-[[params.social]]
-icon = "ti-linkedin"
-URL = "https://www.linkedin.com/in/melissa-santel/"
+#[[params.social]]
+#icon = "ti-linkedin"
+#URL = "https://www.linkedin.com/in/melissa-santel/"
 
-[[params.social]]
-icon = "ti-github"
-URL = "https://github.com/melissasantel"
+#[[params.social]]
+#icon = "ti-github"
+#URL = "https://github.com/melissasantel"
 
-[[params.social]]
-icon = "ti-pinterest"
-URL = "https://pin.it/4tV0Ro9"
+#[[params.social]]
+#icon = "ti-pinterest"
+#URL = "https://pin.it/4tV0Ro9"
 
 # [[params.social]]
 # icon = "ti-instagram"
 # URL = "https://www.instagram.com/meliissasantel_/"
 
-# [[params.social]]
-# icon = "ti-dribbble"
-# URL = "https://dribbble.com/MelissaSantel"
 
-# [[params.social]]
-# icon = "ti-behance"
-# URL = "https://www.behance.net/mlissasantel"

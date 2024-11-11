@@ -5,23 +5,21 @@ banner:
 # about
 about:
   enable : true
-  content : "Je suis une jeune ingénieure cogniticienne en poste actuellement chez Alten et basée à Bordeaux.
-            Ceci est mon portfolio, vous y trouverez quelques lignes à mon sujets, mes expériences et bien d'autre choses à venir. 
-            Bonne visite !"
+  content : "Maintenance :( !"
   button:
-    enable : true
+    enable : false
     label : "A propos"
     URL : "about"
 
 # experience
 experience:
-  enable : true
+  enable : false
   title : "Experiences"
   item: 
     - logo : "images/resume/alten.png"
       title : "Ingénieure d'étude"
       company : "ALTEN"
-      duration : "Oct 2022 - Maintenant"
+      duration : "Oct 2022 - Janv 2022"
 
     - logo : "images/resume/aio.png"
       title : "Ingénieure cognitique"
@@ -48,10 +46,9 @@ experience:
       company : "Ipeos"
       duration : "Juin 2018 - Aout 2018"
 
-
 # education
 education:
-  enable : true
+  enable : false
   title : "Formations et diplômes"
   item:
     - title : "Formation Robotique & Apprentissage"
@@ -72,12 +69,12 @@ education:
 
 # skill
 skill:
-  enable : true
+  enable : false
   title : "Compétences"
   item:
     - title : "Front-end"
       details : "Vue.js - HTML, CSS, Javascript"
-      progress : "60%"
+      progress : "40%"
       color : "#fdb157"
       
     - title : "Design Interface"
@@ -91,7 +88,7 @@ skill:
       color : "#aaffd8"
 
     - title : "Back-end"
-      details: "Flask - SqlAlchemy, PostgreSQL, Redis - Celery"
+      details: "Flask - SqlAlchemy, PostgreSQL, Redis - Celery, Django"
       progress : "70%"
       color : "#9473e6"
       
@@ -107,7 +104,7 @@ skill:
 
 # service
 service:
-  enable : true
+  enable : false
   title : "Projets"
   item:
     - title : "Le Kanban pour le suivi de colis"
